@@ -8,7 +8,7 @@ public class C02_Scanner01 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Please enter one User Name : ");
+		System.out.println("Please enter a Username : ");
 
 		String userName = scan.nextLine();
 		
