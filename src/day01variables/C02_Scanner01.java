@@ -13,6 +13,6 @@ public class C02_Scanner01 {
 		String userName = scan.nextLine();
 		
 		System.out.println("User name is " + userName);
-
+		scan.close();
 	}
 }

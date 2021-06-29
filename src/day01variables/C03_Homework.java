@@ -40,7 +40,7 @@ public static void main(String[] args) {
 	
 	String name = scan.next();  
 	
-	
+	scan.close();
 
 	System.out.println("First letter of your name is : " + name.charAt(0));
 
