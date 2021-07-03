@@ -45,7 +45,7 @@ public class C04_Modulus {
 		System.out.println(rakamToplamı);
 
 		
-		
+		scan.close();
 	}
 
 }
