@@ -12,7 +12,7 @@ public class C2_MethodCreation {
 		
 		toplama(sayi1,sayi2);
 		carpma(sayi1,sayi2);
-		
+	scan.close();	
 	}
 
 	public static void carpma(int sayi1, int sayi2) {

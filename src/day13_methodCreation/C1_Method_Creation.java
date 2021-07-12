@@ -6,9 +6,11 @@ public class C1_Method_Creation {
 		//System.out.println(toplama(20,40));
 		int sonuc = toplama(15,25);
 		
+		System.out.println(sonuc);
+		
 	}
 
-	public static String toplama (int sayi1, int sayi2) {
+	public static int toplama (int sayi1, int sayi2) {
 		
 		System.out.println("gövde");
 		return sayi1+sayi2;
