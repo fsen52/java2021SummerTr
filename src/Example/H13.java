@@ -5,18 +5,8 @@ package Example;
 public class H13 {
 	public static void main(String[] args) {
 	
-char x = 'a';	
-		
-do {
-	
-	System.out.print(x);
-	
-	x++;
-	
-	System.out.print(" ");
-	
-} while (x <= 'z');
-		
-		
+int x = 10;
+
+if(x==10)System.out.println("oldu");
 	}
 }

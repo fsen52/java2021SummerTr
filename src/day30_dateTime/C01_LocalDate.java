@@ -18,6 +18,8 @@ public class C01_LocalDate {
 		
 		System.out.println(tarih.getDayOfMonth());
 		
+		System.out.println(tarih.getMonth());
+		
 		LocalDate dogum = LocalDate.of(1994, 1, 1);
 		
 		System.out.println(dogum);

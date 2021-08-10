@@ -18,9 +18,9 @@ public class C02_LocalTime {
 				
 		LocalTime basla = LocalTime.now();
 		
-		for (int i = 0; i<=100 ; i++) {
+		for (int i = 0; i<=100000 ; i++) {
 			
-			System.out.print(i);
+			i+=1;
 		}
 		
 		LocalTime bitir = LocalTime.now();
