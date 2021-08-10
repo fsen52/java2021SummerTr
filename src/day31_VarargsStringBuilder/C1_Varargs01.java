@@ -2,11 +2,19 @@ package day31_VarargsStringBuilder;
 
 public class C1_Varargs01 {
 
-	public int num1 = 10;
+	private int num1 = 10;
 	
-	public String name = "Furkan";
+	private String name = "Furkan";
 	
 	
+	public String getName() {
+		return name;
+	}
+
+	public void setNum1(int num1) {
+		this.num1 = num1;
+	}
+
 	public static void main(String[] args) {
 
 		int sayi1 = 10;

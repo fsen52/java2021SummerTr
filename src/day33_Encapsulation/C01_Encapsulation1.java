@@ -10,10 +10,13 @@ public class C01_Encapsulation1 {
 		
 		C1_Varargs01 obje = new C1_Varargs01();
 		
-	
-	
+		obje.setNum1(12);
+		
 		 
-		 obje.toplama(45, 96);
+		 
+		
+		
+		 System.out.println(obje.getName());
 		 
 		
 		
