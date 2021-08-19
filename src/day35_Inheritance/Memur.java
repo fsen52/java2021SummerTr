@@ -25,6 +25,8 @@ public class Memur extends Personel {
 	public static void main(String[] args) {
 
 		Memur obj1 = new Memur(2400);
+		
+		System.out.println(obj1.kesat);
 	
 
 
