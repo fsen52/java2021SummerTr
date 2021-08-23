@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Answer_1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 
 	/*Kullanicidan bir sayi alin. Bu sayinin tek mi cift mi oldugunu, sifirdan buyuk mu 
 kucuk mu oldugunu, ayrica ve 100’den buyukse birler,onlar ve yuzler basamagindaki 
