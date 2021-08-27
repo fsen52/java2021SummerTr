@@ -5,4 +5,6 @@ public abstract class Abstract01 {
 
     public abstract void Car();
 
+    abstract public void Deneme();
+
 }

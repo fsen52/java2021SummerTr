@@ -7,4 +7,8 @@ public class Concrete03 extends Abstract02 {
     }
 
 
+    @Override
+    public void Deneme() {
+
+    }
 }
