@@ -4,10 +4,16 @@ public class Exceptions03 {
 
 	public static void main(String[] args) {
 		
-		int arr[]= {1,4,5,6};
+	double x=0;
+	
+	for (double i=0; i<1; i--) {
+		
+		x+=Math.pow(x, 10);
 		
 		
+	}
 		
+	System.out.println("bitti");
 		
 	}
 }
