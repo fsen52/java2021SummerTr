@@ -8,6 +8,7 @@ public class C1_LinkedList01 {
 
 	public static void main(String[] args) {
 
+		@SuppressWarnings("unused")
 		List<String> liste = new ArrayList<>();
 		
 		LinkedList<String> ll1 = new LinkedList<>();
@@ -20,6 +21,7 @@ public class C1_LinkedList01 {
 	
 		System.out.println(ll1);
 		
+	
 	}
 
 }

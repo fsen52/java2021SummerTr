@@ -17,7 +17,9 @@ public class Exceptions01 {
 			
 			System.out.println("yasınız : ");
 		} else {
+			scan.close();
 			throw new IllegalArgumentException();
+			
 		}
 		}catch (IllegalArgumentException e) {
 			
@@ -25,6 +27,8 @@ public class Exceptions01 {
 		}
 		System.out.println("kod bloke olmadı");
 		
+	
+	scan.close();
 	}
 
 }
