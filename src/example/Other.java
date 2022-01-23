@@ -4,21 +4,42 @@ import java.util.*;
 
 public class Other {
 
-	 public static void main(String[] args) {
-		    
-		    Scanner scan = new Scanner(System.in);
-		    String guestList="";
-		    String guestName;
-		    
-		    do{ 
+	public static void main(String[] args) {
 
-		      System.out.println("Please enter guest name:");
-		      guestName=scan.next();
-		      guestList=guestList+ ", " + guestName;
-		      System.out.println("Do you want to enter new guest name:");
-		      guestName=scan.next();
+		String str = "ananas";
 
-		    }while(!guestName.equals("no"));
+		int count = 0;
+
+		String result = "";
+
+		String strValue = "";
+
+		while (str.length() > 0) {
+
+			char value = str.charAt(0);
+
+			strValue = "" + value;
+
+			for (int i = 0; i < str.length(); i++) {
+
+				if (str.charAt(i) == value) {
+					
+					count++;
+
+					
+
+				}
+				
+			}
+			result += value + "" + count;
+			
+			str = str.replaceAll(strValue, "");
+			
+			count=0;
+			
+			
+		}
 		
+		System.out.println(result);
 	}
 }
