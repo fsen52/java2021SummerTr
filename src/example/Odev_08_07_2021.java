@@ -44,26 +44,7 @@ public class Odev_08_07_2021 {
 		System.out.print("lütfen yaşınızı giriniz : ");
 
 		int yas = scan.nextInt();
-
-		if (yas < 12) {
-			tfiyat = fiyat * 0.5;
-			
-		} else if (yas < 24) {
-			tfiyat = fiyat * 0.9;
-
-		} else if (yas > 65) {
-			tfiyat = fiyat * 0.7;
-
-		} else {
-			tfiyat = fiyat;
-
-		}
-
-		System.out.print("biletinizi tek yön alacaksanız 1, gidiş geliş alacaksanız 2 yazıp ENTER tuşuna basınız :  ");
-
-		int tarife = scan.nextInt();
-
-		if (tarife == 2) {
+jgvfytfrvhyvyt
 			tfiyat *= 0.8;
 
 		}
